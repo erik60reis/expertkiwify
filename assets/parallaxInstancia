@@ -1,0 +1,3 @@
+//https://app.landingpage.com.br/construtor/src/components/PainelEdicao/CampoMovimentos/parallaxInstancia.js by jar
+document.addEventListener("DOMContentLoaded",function(){try{document.querySelectorAll(".is-wrapper .is-section").forEach(a=>{new Parallax(a,{relativeInput:!0,inputElement:document.querySelector(".is-wrapper"),selector:".is-block.bloco-imagem[data-depth]:not(.is-svg):not(.overlay-forma)"})})}catch(a){}},!1);
+

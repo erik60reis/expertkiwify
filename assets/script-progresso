@@ -1,0 +1,3 @@
+//https://app.landingpage.com.br/construtor/src/components/progresso/script-progresso.js by jar
+const ativarProgresso=b=>{const d=Number(b.getAttribute("data-porcentagem"))||0,c=b.querySelector(".progress-bg"),e=b.querySelectorAll(".porcentagem");let a=0;const f=setInterval(function(){a===d?clearInterval(f):(a++,c.style.cssText+=`width: ${a}% !important;`,e.forEach(g=>{g.innerText=`${a}%`}))},15)};
+
