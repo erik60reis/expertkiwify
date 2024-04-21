@@ -1,3 +1,0 @@
-//https://app.landingpage.com.br/construtor/assets/js/feature.js by api
-var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.createTemplateTagFirstArg=function(a){return a.raw=a};$jscomp.createTemplateTagFirstArgWithRaw=function(a,b){a.raw=b;return a};
-var abrirFeature=function(a){a=a.target;var b=a.getAttribute("data-bloco");b=document.querySelector("."+b);var c=a.getAttribute("data-feature");c=b.querySelector('.features-conteudo [data-feature="'+c+'"]');b.querySelector(".content-feat.ativo").classList.remove("ativo");b.querySelector(".feature-btn.ativo").classList.remove("ativo");a.classList.add("ativo");c.classList.add("ativo")};document.querySelectorAll(".feature-btn").forEach(function(a){a.addEventListener("click",abrirFeature)});
